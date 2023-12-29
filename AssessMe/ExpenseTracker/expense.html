@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="expense.css">
+</head>
+<body>
+    <div class="expense-container">
+        <div class="container">
+            <h2 class="head">Expense Tracker</h2>
+            <div class="expense-balance">
+                <h3>YOUR BALANCE</h3>
+                <h2> <span>&#8358;</span><span id="balance">00</span></h2>
+            </div>
+            <div class="expenseIncome">
+                <div class="income">
+                    <h4>INCOME</h4>
+                    <p style="color: green; font-size: 20px; margin-top: 10px;" ><span>&#8358;</span> <span id="income">00</span></p>
+                </div>
+                <div class="line"></div>
+                <div class="expense">
+                    <h4>EXPENSE</h4>
+                    <p style="color: red;font-size: 20px; margin-top: 10px;"><span>&#8358;</span> <span id="expense">00</span></p>
+                </div>
+            </div>
+            <div class="histories">
+                <h3 class="history">History</h3>
+                <hr />
+                <div class="history-list">
+                    <div class="lists">
+                        <p>Marriage expense</p>
+                        <span>+5000</span>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="newTransaction">
+                <h3 class="history">Add New Transaction</h3>
+                <hr />
+                <form>
+                <label>Title</label>
+                <br />
+                <input type="text" placeholder="Enter text..." id="titleValue">
+                <br />
+                <label>Amount</label>
+                <br />
+                <p>(negative-expenses, postive-income)</p>
+                <input type="number" placeholder="Enter amount..." id="amountValue">
+                </form>
+                <div class="submitTrans">
+                    <button id="submitInput">Add Transaction</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./expense.js"></script>
+</body>
+</html>

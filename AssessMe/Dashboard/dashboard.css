@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    margin-top: 30px;
+}
+
+button{
+    padding: 8px 50px;
+}
+
+i{
+    margin-left: 4px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  background-position: center;
+  background-size: contain;
+  margin-bottom: 30px;
+}
+
+.dash-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#left-dash{
+    background-color: aliceblue;
+    width: 25%;
+    height: 100vh;
+    padding: 0px 30px;
+    box-shadow: 3px 4px 10px rgb(150, 177, 242);
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+#right-dash{
+    width: 83%;
+    height: 100vh;
+    padding: 0px 30px;
+}
+

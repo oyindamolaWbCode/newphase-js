@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h2 {
+  text-align: center;
+  color: white;
+}
+
+.container {
+  width: 360px;
+  height: 500px;
+  /* text-align: center; */
+  /* color: white; */
+  background-color: black;
+  border: 1px solid red;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 50px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 25px;
+  justify-content: end;
+}
+
+/* input::value {
+  display: flex;
+  justify-content: flex-end;
+} */
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  margin: 15px 0px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  font-size: 28px;
+  background-color: #464545;
+  border: 0;
+  color: white;
+  font-weight: bolder;
+}
+
+.diffColor {
+  background-color: orange;
+}
+
+.diff {
+  background-color: #9a9a9a;
+}

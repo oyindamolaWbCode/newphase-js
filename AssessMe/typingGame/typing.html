@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Speed Game</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="typing.css" />
+  </head>
+  <body>
+    <div class="typing-container">
+      <div class="container">
+        <p>Type the given word in <b>5</b> seconds</p>
+        <div id="word-type">
+          <h1 id="word">Perfecto</h1>
+        </div>
+
+        <div id="gameWinLoss">
+          <p class="game">Game ON</p>
+        </div>
+        <div class="input-word">
+          <input type="text" required />
+        </div>
+        <div class="records">
+          <div id="time">
+            <p id="time">Time Left: 10</p>
+          </div>
+          <div id="score">
+            <p id="score">Score: 0</p>
+          </div>
+        </div>
+        <div id="score-record">
+          <p id="score-record">High Score: 15</p>
+        </div>
+      </div>
+    </div>
+    <script src="./typing.js"></script>
+  </body>
+</html>

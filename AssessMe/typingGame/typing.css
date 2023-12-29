@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #dfded9;
+}
+
+.typing-container {
+  height: 500px;
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+b {
+  color: aqua;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.game {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+input[type="text"] {
+  width: 97%;
+  height: 50px;
+  padding: 0px 9px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  border: none;
+  outline: 1px solid rgb(157, 195, 195);
+  font-size: 21px;
+}
+
+.records {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+
+#time {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+#score {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+#score-record {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}

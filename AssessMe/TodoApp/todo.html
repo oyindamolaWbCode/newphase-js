@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="todo-container">
+      <div class="inputs">
+        <div id="todo-input">
+          <input type="text" required />
+        </div>
+        <div id="add-todo">
+          <button id="add" onclick="add()"><b>+</b> Add Todo</button>
+        </div>
+      </div>
+      <div>
+        <ul id="todo-output">
+          <!-- <li>
+            Write programs to solve an algorithms
+            <i
+              class="fa-regular fa-trash-can"
+              style="color: white; float: right"
+            ></i>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+    <script src="../TodoApp/todo.js"></script>
+  </body>
+</html>

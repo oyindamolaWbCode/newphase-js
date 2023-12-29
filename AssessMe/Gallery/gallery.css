@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@200&family=Josefin+Sans:ital@1&family=Montserrat:ital,wght@0,100;0,600;1,200&family=Overpass:wght@300&family=Poppins:wght@300&family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins' sans-serif;
+}
+
+.gall-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    margin: 40px 20px 0 20px;
+}
+
+.gall-container .contain{
+    width: 50%;
+    padding-bottom:50px ;
+}
+
+.gall-container .contain h3{
+    font-size: 3em;
+    font-weight: bolder;
+    border-bottom: 3px solid #222;
+    padding-bottom: 10px;
+}
+
+.gall-container .contain h3 span{
+    font-weight: 100;
+}
+
+.gall-container .box{
+    display: flex;
+    justify-content: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.gall-container .box .imageOne{
+   display: flex;
+   flex-direction: column;
+   width: 32.5%;
+}
